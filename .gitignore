@@ -1,0 +1,67 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.yarn-integrity
+
+
+
+# Dependency directories
+node_modules
+dist
+{{ ... }}
+dist-ssr
+*.local
+
+
+
+
+# Environment variables (Security!)
+.env
+.env.local
+.env.*.local
+
+
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+
+# Windows file system permission files
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folders with persisted state
+blob_storage
+indexeddb
+localstorage
+shader_cache
+tmp
+
+# Folder with profiler-related files
+profiler_results
+
+# Mocha test results
+*.mocha.opts
+*.mocha-result.json
+
+# Playwright test results
+playwright-report
